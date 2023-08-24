@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('ruta/a/tu/imagen/de/fondo.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+}
+
+img {
+    width: 100px; 
+    height: 100px;
+}
+
+#contenedor 
+{
+    
+    width: 52%;
+    margin: 50px auto;
+    border: solid 1px #000;
+    font: 1em arial, helvetica, sans-serif;
+    color: white;
+    }
+    #nada, #borde, #relleno, #margen, #todos {
+    background-color: #360;
+    border: solid #08f;
+    width: 400px;
+    }
+    #nada {
+    margin: 15;
+    padding: 10;
+    border-width: 20px;
+    }
+    #borde      {
+    margin: 15;
+    padding: 10;
+    border-width: 20px;
+    }
+    #relleno    {
+    margin: 15;
+    padding: 20px;
+    border-width: 20px;
+    }
+    #margen     {
+    margin: 20px;
+    padding: 15;
+    border-width: 10px;
+    }
+    #todos      {
+    margin: 20px;
+    padding: 20px;
+    border-width: 20px;
+    }
+
+    .buttons
+    header {
+        background: rgba(0,0,0,0.7);
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+      }
+      
+      nav {
+        float: left;
+      }
+      
+      nav ul {
+        list-style: none;
+        overflow: hidden; 
+      }
+      
+      nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+      nav ul li a {
+        display: block;
+        padding: 15px;
+        color: #1b1661;
+        text-decoration: none;
+      }
+      nav ul li:hover {
+        background-color: aqua;
+      }
+
+    .images
+     {
+
+     }
+     .buttom
+     {
+        
+     }
